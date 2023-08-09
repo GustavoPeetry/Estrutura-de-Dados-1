@@ -14,7 +14,7 @@ int main()
 
     for(int i = 0 ; i < tam; i++)
     {
-        printf("digite um valor");
+        printf("digite um valorrr");
         scanf("%d", &n[i]);
     }
 
