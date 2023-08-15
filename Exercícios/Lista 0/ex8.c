@@ -3,50 +3,29 @@
 
 int comparador(char *str1, char *str2)
 {
-    int i,j = 0;
-    int retorno = 0;
-    char maior[100];
-    char menor[100];
+    int i, j;
 
-
-
-    if (strlen(str1) <= strlen(str2))
-        {
-            strcpy(maior, str2);
-            strcpy(menor, str1);
-        }
-    else
-        {
-            strcpy(maior, str1);
-            strcpy(menor, str2);
-        }
-
-
-    for (i = 0 ; i < strlen(maior) ; i++ )
+    for (i = 0; i <= strlen(str2) - strlen(str1); i++)
     {
-        for(j = 0 ;  j < strlen(menor); j++)
+        for (j = 0; j < strlen(str1); j++)
         {
-            if(maior[i] == menor[j])
-                retorno = 1;
-            else if(maior[i] != menor[j] && retorno == 1)
-                return 0;
-            else if(j == strlen(menor) && retorno == 1)
-                {
-                    printf("louco e sonhador");
-                    return 1;
-                }
+            if (str2[i + j] != str1[j])// se o tamanho somado de i + j de str2 e diferente do tamanho da str1 ele sai
+                break;
         }
+        if (j == strlen(str1))
+            return 1; // encontrou a substring
     }
-}
 
+    return 0; // Não encontrou a substring
+}
 
 int main()
 {
     char str1[100] = "bacia";
-    char str2[100] = "baciabas";
+    char str2[100] = "aaaaaa";
 
 
-    printf("%d", comparador(&str1, &str2));
+    printf("%d", comparador(str1, str2));
 
     return 0;
 }
