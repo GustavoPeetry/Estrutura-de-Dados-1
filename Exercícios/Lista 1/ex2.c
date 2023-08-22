@@ -15,7 +15,7 @@ int fatorial(int n)
 
 int main()
 {
-    int n = 20;
+    int n = 3;
 
     printf("%d", fatorial(n));
 

@@ -1,0 +1,1 @@
+Isso dará o famigerado problema de Stack Overflow, pois a função nunca sairá dessa equação por não ter uma condição para que ela consiga sair.
