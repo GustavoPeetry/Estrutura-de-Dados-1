@@ -1,0 +1,2 @@
+Stack Overflow é um bug que ocorre por conta de um sobrecarregamento de dados que estão sendo alocados na memória do dispositivo de armazenamento. Desta forma, ele ocorre por conta de que a sub-rotina que está sendo executada tenta demandar mais do que se é disponível de memória no sistema.
+Isso pode ocorrer em recursividades que nunca param e por uma variável que não tem ponteiro.
