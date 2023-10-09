@@ -1,0 +1,13 @@
+a) Melhor caso: v[0] == x 
+Pior caso: v[N-1] == X || x != v[i] (linear)
+
+b) melhor caso e pior caso = iguais O(N);
+
+c) 
+
+d) melhor caso: N é par
+pior caso: N é primo
+
+e) melhor e pior caso iguais (linear) O(N)
+
+f)
