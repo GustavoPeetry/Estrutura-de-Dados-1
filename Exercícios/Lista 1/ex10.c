@@ -2,14 +2,14 @@
 
 void imprimeDigitosInv(int N)
 {
-    if (N < 10)
+    if (N <= 10)
     {
         printf("%d\n", N);
     }
     else
     {
-        printf("%d\n", N % 10);
         imprimeDigitosInv(N / 10);
+        printf("%d\n", N % 10);
     }
 }
 
