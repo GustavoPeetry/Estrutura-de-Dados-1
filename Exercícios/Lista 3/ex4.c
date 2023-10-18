@@ -8,7 +8,7 @@ void trocarValores(int *a, int *b) {
 }
 
 
-void selection_sort(int vet[10])
+void selection_sort(int vet[10], int ite)
 {
     int i, j = 0;
     int pos_menor = 0;
@@ -19,12 +19,13 @@ void selection_sort(int vet[10])
         {
             if(vet[j] < vet[pos_menor])
                 pos_menor = j;
+                ite++;
         }
         trocarValores(&vet[i], &vet[pos_menor]);
     }
 }
 
-void insertion_sort(int vet[10])
+void insertion_sort(int vet[10], int ite)
 {
     int i, j;
 
@@ -36,12 +37,13 @@ void insertion_sort(int vet[10])
         {
             trocarValores(&vet[j], &vet[j-1]);
             j=j-1;
+            ite++;
         }
 
     }
 }
 
-void bubble_sort(int vet[10])
+void bubble_sort(int vet[10], int ite;)
 {
     int i, j;
 
@@ -51,6 +53,7 @@ void bubble_sort(int vet[10])
         {
             if(vet[j] > vet[j+1])
                 trocarValores(&vet[j], &vet[j+1]);
+                ite++;
         }
     }
 
@@ -62,6 +65,10 @@ void bubble_sort(int vet[10])
 
 int main()
 {
+    int it1;
+    int it2;
+    int it3;
+
     int vet1[10] = {1, 4, 74, 52, 99, 22, 45, 123, 23, 55};
     int vet2[10] = {1, 4, 74, 52, 99, 22, 45, 123, 23, 55};
     int vet3[10] = {1, 4, 74, 52, 99, 22, 45, 123, 23, 55};
@@ -70,25 +77,25 @@ int main()
     int vet6[10] = {1, 4, 74, 52, 99, 22, 45, 123, 23, 55};
     int vet7[10] = {1, 4, 74, 52, 99, 22, 45, 123, 23, 55};
 
-    selection_sort(vet1);
+    selection_sort(vet1, it1);
 
     for (int i = 0; i < 10; i++)
     {
-        printf("%d ", vet1[i]);
+        printf("%d %d", vet1[i], it1);
     }
 
     printf("\n");
 
-    insertion_sort(vet2);
+    insertion_sort(vet2, it2);
 
     for (int i = 0; i < 10; i++)
     {
-        printf("%d ", vet2[i]);
+        printf("%d %d", vet2[i]);
     }
 
     printf("\n");
 
-    bubble_sort(vet3);
+    bubble_sort(vet3, it3);
 
     for (int i = 0; i < 10; i++)
     {
