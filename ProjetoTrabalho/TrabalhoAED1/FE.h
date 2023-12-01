@@ -10,10 +10,9 @@ typedef struct fila{
 } fila;
 
 fila *cria_fila();
-int vazia(fila *p);
-int cheia(fila *p);
-void push_fila(fila *p, int x);
-int pop_fila(fila *p);
+int vazia_fila(fila *f);
+void push_fila(fila *f, int x);
+int pop_fila(fila *f);
 
 #endif // FE
 

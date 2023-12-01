@@ -1,15 +1,27 @@
 # depslib dependency file v1.0
-1701379215 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
+1701462139 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
 	"PE.h"
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
-1701383675 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.h
+1701462725 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.h
 
-1701378988 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.c
+1701462966 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.c
 	<stdio.h>
 	<stdlib.h>
 	"PE.h"
 
-1701383704 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
+1701442481 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
+	"FE.h"
+	<stdio.h>
+	<stdlib.h>
+
+1701439071 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.c
+
+1701439082 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.c
+
+1701443622 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.h
+
+1701455904 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\teste.c
 

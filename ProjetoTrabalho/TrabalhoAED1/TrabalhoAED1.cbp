@@ -31,15 +31,23 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="FE.c">
+		<Unit filename="FD.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="FD.h" />
 		<Unit filename="FE.h" />
+		<Unit filename="PD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PD.h" />
 		<Unit filename="PE.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="PE.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teste.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
