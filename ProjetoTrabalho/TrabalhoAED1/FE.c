@@ -6,32 +6,21 @@
 
 fila *cria_fila()
 {
-    fila *novo = (fila*)malloc(sizeof(fila));
-    novo -> ini = novo -> fim = 0;
-    return novo;
+    fila *f = (fila*)malloc(sizeof(fila));
+    f->ini = 0;
+    f->fim = 0;
+    return f;
 }
-
-int vazia_fila(fila *f) {
-    return f->ini == f;
-}
-
 
 void push_fila(fila *f, int x)
 {
     f->vet[f->fim] = x;
-    f->fim = f(fim+1)%MAX_TAM;
-
-    return 1;
+    f->fim = (f->fim + 1) % MAX_TAM;
 }
 
 int pop_fila(fila *f)
 {
-    if (vazia_fila-(*f)) {
-        return -1;
-    }
-
-    int x = f->vet[f->ini];
-    f->ini = (f->ini + 1)%MAX_TAM;
-
-    return x;
+    int val = f->vet[f->ini];
+    f->ini = (f->ini + 1) % MAX_TAM;
+    return val;
 }

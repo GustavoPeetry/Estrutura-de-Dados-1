@@ -35,6 +35,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="FD.h" />
+		<Unit filename="FE.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="FE.h" />
 		<Unit filename="PD.c">
 			<Option compilerVar="CC" />

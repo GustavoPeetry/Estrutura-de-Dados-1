@@ -5,19 +5,18 @@
 
 
 typedef struct nodo{
+    int *vet;
     struct nodo *prox;
 } nodo;
 
 typedef struct pilha {
-    int vet[MAX_TAM][MAX_TAM];
-    int topo;
+    nodo *topo;
 } pilha;
 
-pilha *cria_pilha();
-int vazia_pilha(pilha *p);
-int cheia_pilha(pilha *p);
-void push_pilha(pilha *p, int x);
-int pop_pilha(pilha *p);
-void imprime_pilha(nodo *p);
+pilha *cria_pilhad();
+int vazia_pilhad(pilha *p);
+int cheia_pilhad(pilha *p);
+void push_pilhad(pilha *p, int[5]);
+int *pop_pilhad(pilha *p);
 
-#endif // PE
+#endif // PD

@@ -1,27 +1,38 @@
 # depslib dependency file v1.0
-1701462139 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
-	"PE.h"
+1701488015 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
+	"PD.h"
+	"FE.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1701462725 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.h
+1701484421 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.h
 
-1701462966 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.c
+1701484161 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.c
 	<stdio.h>
 	<stdlib.h>
 	"PE.h"
 
-1701442481 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
+1701487636 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
 	"FE.h"
 	<stdio.h>
 	<stdlib.h>
 
-1701439071 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.c
+1701489601 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.c
+	"FD.h"
+	<stdio.h>
+	<stdlib.h>
 
-1701439082 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.c
+1701485968 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.c
+	<stdio.h>
+	<stdlib.h>
+	"PD.h"
 
-1701443622 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.h
+1701487323 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.h
 
-1701455904 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\teste.c
+1701487491 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\teste.c
+
+1701485968 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.h
+
+1701489585 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.h
 
