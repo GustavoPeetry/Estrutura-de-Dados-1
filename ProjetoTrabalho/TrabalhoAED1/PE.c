@@ -54,13 +54,14 @@ void push_pilha(pilha* p, int *vet)
         p->vet[p->topo][i] = vet[i];
     }
 
-    for(i = 0;i < tam ;i++)
+    printf("[%d", p->vet[p->topo][0]);
+    for(i = 1;i < tam ;i++)
     {
         if(vet[i] == -1)
             break;
-        printf("%d|",p->vet[p->topo][i]);
+        printf(" %d",p->vet[p->topo][i]);
     }
-    printf("\n");
+    printf("] empilhado.\n");
 }
 
 int *pop_pilha(pilha *p)

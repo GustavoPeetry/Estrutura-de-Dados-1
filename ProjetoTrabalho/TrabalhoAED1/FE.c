@@ -12,6 +12,13 @@ fila *cria_fila()
     return f;
 }
 
+int vazia_fila(fila *f)
+{
+    if (f->ini == f->fim)
+        return 1;
+    else return 0;
+}
+
 void push_fila(fila *f, int x)
 {
     f->vet[f->fim] = x;
@@ -20,6 +27,8 @@ void push_fila(fila *f, int x)
 
 int pop_fila(fila *f)
 {
+    if(f->fim == f->ini)
+        f->fim == NULL;
     int val = f->vet[f->ini];
     f->ini = (f->ini + 1) % MAX_TAM;
     return val;

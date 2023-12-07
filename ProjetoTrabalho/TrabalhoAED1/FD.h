@@ -3,19 +3,20 @@
 
 #define MAX_TAM 10
 
-typedef struct nodof {
-    int *vet;
-    struct nodof *prox;
-} nodof;
+typedef struct no {
+    int valor;
+    struct no *prox;
+} no;
 
-typedef struct filad{
-    nodof *ini;
-    nodof *fim;
+typedef struct fila{
+    no *ini;
+    no *fim;
 } fila;
 
-fila *cria_filad();
-void push_filad(fila *f, int x);
-int pop_filad(fila *f);
+fila *cria_fila();
+int vazia_fila(fila *f);
+void push_fila(fila *f, int x);
+int pop_fila(fila *f);
 
 #endif // FE
 

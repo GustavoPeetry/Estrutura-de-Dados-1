@@ -11,12 +11,13 @@ typedef struct nodo{
 
 typedef struct pilha {
     nodo *topo;
+    int tam;
 } pilha;
 
-pilha *cria_pilhad();
-int vazia_pilhad(pilha *p);
-int cheia_pilhad(pilha *p);
-void push_pilhad(pilha *p, int[5]);
-int *pop_pilhad(pilha *p);
+pilha *cria_pilha();
+int vazia_pilha(pilha *p);
+int cheia_pilha(pilha *p);
+void push_pilha(pilha *p, int *vet, int tam);
+int *pop_pilha(pilha *p);
 
 #endif // PD

@@ -1,27 +1,27 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "PD.h"
 
-pilha *cria_pilhad(){
+pilha *cria_pilha(){
     pilha *novo = (pilha*)malloc(sizeof(pilha));
     novo -> topo = NULL;
     return novo;
 }
 
-int vazia_pilhad(pilha *p)
+int vazia_pilha(pilha *p)
 {
-    return p->topo == -1;
+    return p->topo == NULL;
 }
 
-int cheia_pilhad(pilha *p)
+int cheia_pilha(pilha *p)
 {
     return p->topo == 2;
 }
 
-void push_pilhad(pilha* p, int *vet)
+void push_pilha(pilha* p, int *vet, int tam)
 {
-    int i, tam = 0;
+    int i, tamanho = 0;
+    p->tam = tam;
     nodo *novo = (nodo*)malloc(sizeof(nodo));
     novo->vet = (int *)malloc(MAX_TAM * sizeof(int));
 
@@ -33,37 +33,41 @@ void push_pilhad(pilha* p, int *vet)
 
     for(i = 0;i < MAX_TAM ;i++)
     {
-        tam++;
-        if(vet[i] == -1)
+        tamanho++;
+        if(vet[i] == -1)//-1 vai ser utilizado como marcador do final do vetor
         {
+            tamanho++;
             break;
         }
-        else if(tam > MAX_TAM)
+        else if(tamanho > MAX_TAM)
         {
             printf("Excesso de numeros");
             return;
         }
     }
 
-    for(i = 0; i<tam;i++)
+    for(i = 0; i<tamanho;i++)
     {
         novo->vet[i] = vet[i];
     }
 
-    for(i = 0;i < tam ;i++)
+    printf("[%d", novo->vet[0]);
+    for (i = 1; i < tamanho; i++)
     {
-        if(vet[i] == -1)
+        if (vet[i] == -1)
             break;
-        printf("%d|",novo->vet[i]);
+        printf(" %d", novo->vet[i]);
     }
-    printf("\n");
+    printf("] empilhado.\n");
+
 
     novo->prox = p->topo;
     p->topo = novo;
 }
 
-int *pop_pilhad(pilha *p)
+int *pop_pilha(pilha *p)
 {
+    int tam = p->tam;
     if (vazia_pilha(p))
     {
         return NULL;

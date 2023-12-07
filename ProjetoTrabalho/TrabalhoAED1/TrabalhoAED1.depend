@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1701488015 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
+1701908607 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\main.c
 	"PD.h"
 	"FE.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<math.h>
 
 1701484421 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pe.h
 
@@ -13,26 +14,48 @@
 	<stdlib.h>
 	"PE.h"
 
-1701487636 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
+1701906259 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.c
 	"FE.h"
 	<stdio.h>
 	<stdlib.h>
 
-1701489601 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.c
+1701867112 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.c
 	"FD.h"
 	<stdio.h>
 	<stdlib.h>
 
-1701485968 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.c
+1701904056 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.c
 	<stdio.h>
 	<stdlib.h>
 	"PD.h"
 
-1701487323 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.h
+1701906251 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fe.h
 
 1701487491 source:c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\teste.c
 
-1701485968 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.h
+1701651109 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\pd.h
 
-1701489585 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.h
+1701671930 c:\users\petry\desktop\utfpr\estrutura-de-dados-1\projetotrabalho\trabalhoaed1\fd.h
+
+1701867112 source:c:\users\aluno\downloads\trabalhoaed1\fd.c
+	"FD.h"
+	<stdio.h>
+	<stdlib.h>
+
+1701671930 c:\users\aluno\downloads\trabalhoaed1\fd.h
+
+1701885871 source:c:\users\aluno\downloads\trabalhoaed1\main.c
+	"PD.h"
+	"FD.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1701651109 c:\users\aluno\downloads\trabalhoaed1\pd.h
+
+1701885713 source:c:\users\aluno\downloads\trabalhoaed1\pd.c
+	<stdio.h>
+	<stdlib.h>
+	"PD.h"
 
