@@ -1,0 +1,6 @@
+1) Cada nodo (nó) terá 12 bytes (4 do tipo inteiro e 8 do tipo void*). Então, uma lista de N elementos terá como espaço necessário 
+Espaço total = 12 * N + 8
+Sendo:
+12 (tamanho nodo)
+N número de inteiros
+8 tamanho do ponteiro

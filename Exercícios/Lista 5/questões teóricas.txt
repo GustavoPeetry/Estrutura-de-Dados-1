@@ -1,0 +1,1 @@
+11)a pilha utiliza de arquitetura LIFO (last in first out), ou seja, o último item ao entrar em uma pilha será o primeiro que sairá. Isso é útil para programas que precisam de um tipo pilha em sua estrutura de dados para funcionar (por exemplo, gerenciamento de processos para priorizar tudo que abre por último)
